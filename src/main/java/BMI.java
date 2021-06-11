@@ -15,7 +15,7 @@ public class BMI {
                 ime.fillInStackTrace();
                 continue;
             } catch (ArithmeticException ae) {
-                System.out.println("Cân nặng phải >=0");
+                System.out.println("Cân nặng phải >0");
                 continue;
             }
         }
@@ -29,7 +29,7 @@ public class BMI {
                 ime.fillInStackTrace();
                 continue;
             } catch (ArithmeticException ae) {
-                System.out.println("Chiều cao phải >=0");
+                System.out.println("Chiều cao phải >0");
                 continue;
             }
         }
